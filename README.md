@@ -55,15 +55,13 @@ There's no build step and nothing to install. Either:
 **Copy the file.** Grab [`patient-listener.js`](./patient-listener.js) and
 drop it into your project.
 
-**Or import it directly from a CDN**, for a quick prototype:
+**Or import it directly from a CDN**, pinned to a tagged release:
 
 ```html
 <script type="module">
-  import { startListening } from "https://cdn.jsdelivr.net/gh/shalynmonet/patient-listener@main/patient-listener.js";
+  import { startListening } from "https://cdn.jsdelivr.net/gh/shalynmonet/patient-listener@v1.0.0/patient-listener.js";
 </script>
 ```
-
-(Pin to a tagged release instead of `@main` once you ship something real.)
 
 ## Usage
 
