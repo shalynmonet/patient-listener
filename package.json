@@ -1,0 +1,27 @@
+{
+  "name": "patient-listener",
+  "version": "1.0.0",
+  "description": "A continuous speech-capture helper for the Web Speech API that waits through natural pauses instead of cutting people off mid-sentence.",
+  "type": "module",
+  "main": "patient-listener.js",
+  "module": "patient-listener.js",
+  "files": [
+    "patient-listener.js"
+  ],
+  "scripts": {
+    "test": "node --test tests/"
+  },
+  "keywords": [
+    "speech-recognition",
+    "web-speech-api",
+    "accessibility",
+    "voice-input",
+    "speech-to-text"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalynmonet/patient-listener.git"
+  },
+  "homepage": "https://shalynmonet.github.io/patient-listener/"
+}
